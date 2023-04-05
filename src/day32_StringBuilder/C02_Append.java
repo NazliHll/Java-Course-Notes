@@ -16,6 +16,9 @@ public class C02_Append {
         Araya ekleme yapmak istedimizde append degil insert kullanmaliyiz.
          */
 
+        sb.insert(22,"valla valla",5,11);
+        System.out.println(sb);//Java her seyi dusunmus valla, daha ne yapsin?
+
 
     }
 }
