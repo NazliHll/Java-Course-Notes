@@ -36,8 +36,8 @@ public class DIsci extends BMuhasebe {
         APersonel isci2=new DIsci();
         //System.out.println(isci2.gunlukMesai);
         //System.out.println(isci2.saatUcreti);
-        isci2.maas();
         //isci2.ozelSigorta();
+        isci2.maas();//
         isci2.sigorta();
         System.out.println(isci2.isim);
         System.out.println(isci2.soyisim);
