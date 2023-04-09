@@ -43,7 +43,7 @@ public class EYanHizmetler extends BMuhasebe {
         /*
         System.out.println(yh1.issizlikSigorta); --> aramaya muhasebeden basladigimizdan
         issizlikSigortasi bulamadik CTE
-         */
+     */
     }
 
 }
