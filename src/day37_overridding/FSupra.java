@@ -1,7 +1,11 @@
 package day37_overridding;
 
 public class FSupra extends EToyota{
-    @Override
+    /*
+        Private method'lar override edilemez.
+        Eger child class'da parent class'daki private method ile ayni signature'da
+        bir method olusturursaniz bu overridding method OLMAZ.
+         */
     void yakit(){
         System.out.println("supra benzin kullanir");
     }

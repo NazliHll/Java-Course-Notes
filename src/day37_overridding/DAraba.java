@@ -1,8 +1,9 @@
 package day37_overridding;
 
 public class DAraba {
-    void yakit(){
+  private  void yakit(){
         System.out.println("Tum arabalar yakit kullanir");
+
     }
     void marka(){
         System.out.println("tum arabalarin markasi vardir");
