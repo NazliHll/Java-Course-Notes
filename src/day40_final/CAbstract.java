@@ -1,9 +1,11 @@
 package day40_final;
 
-public class CAbstract {
+public abstract class CAbstract {
 
-
-
+void toplama(){
+    System.out.println("bu method toplama yapar");
+}
+void carpma(){}
 
 
 
