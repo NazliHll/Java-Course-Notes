@@ -1,7 +1,7 @@
 package day39_Exceptions;
 
 public class C04_ExceptionTurleri {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         String str;
 
         /*
@@ -26,5 +26,6 @@ public class C04_ExceptionTurleri {
         Java bazi casting islemlerine compile time'da izin vermez.
         Ancak bazen syntax uygun olabilir bu durumda java kodun calismasina itiraz etmez
          */
+        Thread.sleep(5000);
     }
 }
