@@ -8,7 +8,7 @@ public interface I03_Interfaces {
      */
 
 
-
+    void yakit();
      /*
     Interface icerisindeki her method public abstract ozelliklerine sahiptir.
     abstract bir method'un body'si olmasi mumkun degildir.
@@ -20,4 +20,10 @@ public interface I03_Interfaces {
     Bunun icin Java8'den itibaren ınterface'lere sonradan body'si olan method
     eklenmesine izin vermistir.
      */
-}
+
+    public void motor();
+    public abstract void teker();
+
+    }
+
+
