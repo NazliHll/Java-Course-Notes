@@ -8,24 +8,22 @@ public class HA160 extends FMercedes {
     donusturulmus, abstract mothod'lardir.
      */
 
-
-
-        /*
+    public static void main(String[] args) {
+        HA160 arb1 = new HA160();
+      /*
         concrete bir class'dan istedigimiz objeyi uretebiliriz.
          */
-
-
+        FMercedes arb2 = new FMercedes();
         /*
         Mercedes'de concrete
          */
 
-
+        EToyota arb4=new GCorolla();
         /*
         Abstract class'lar constructor barındırır ama obje uretemezler.
         EToyota arb3 = new EToyota(); -->
         Toyota class'i abstract class oldugundan obje uretilemez.
          */
-
 
 
         /*
@@ -35,4 +33,5 @@ public class HA160 extends FMercedes {
         Data turunu istedimiz abstract class constructor'i ise child'i olan
         concrete bir class'tan seceriz.
          */
+    }
 }
