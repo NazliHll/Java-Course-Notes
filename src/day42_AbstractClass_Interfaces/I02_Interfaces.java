@@ -1,6 +1,8 @@
 package day42_AbstractClass_Interfaces;
 
 public interface I02_Interfaces {
+int SAYI=30;
+String ISIM="Yildiz Koleji";
       /*
     Interface bir class degildir.
     Abstract Class'lar java'da abstraction (Soyutlaştırma / Kural koyma)
