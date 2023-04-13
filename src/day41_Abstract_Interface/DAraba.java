@@ -14,7 +14,10 @@ public abstract class DAraba {
      ama bir abstract method'da standar belirlemek disinda da method'lar calisabilir
      bu durumda ihtiyac ihtiyac olursa main method olusturulabilir.
       */
-    public abstract void motor();
+    protected abstract void motor();
+    protected abstract void kaporta();
+    protected abstract void yakit();
+
      /*
     sadece child class'larin mecburi tasiyacaklari  ozellikleri belirleyen method'lar
     abstract method olur ve abstract method'larin body'si olmaz.
