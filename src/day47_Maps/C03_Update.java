@@ -61,16 +61,9 @@ public class C03_Update {
              */
         }
         System.out.println(sinifListMap);
+ //{101=Ali, Can, JavaDeveloper, 102=Enes, Cem, Tester, 103=Taha, Emre, JavaDeveloper, 104=Derya, Deniz, Devops, 105=Enes, Can, Tester, 106=Taha, Deniz, JavaDeveloper, 107=Derya, Cem, Tester}
 
-        /*
-        {101=Ali, Can, JavaDeveloper,
-        102=Enes, Cem, Tester,
-        103=Taha, Emre, JavaDeveloper,
-        104=Derya, Deniz, Tester,
-        105=Enes, Can, Tester,
-        106=Taha, Deniz, JavaDeveloper,
-        107=Derya, Cem, Tester}
-         */
+
 
 
     }
