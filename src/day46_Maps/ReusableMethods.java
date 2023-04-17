@@ -68,4 +68,13 @@ public class ReusableMethods {
 
     public static void tumValueSiraaliYazdir(Map<Integer, String> sinifListMap) {
     }
+
+    public static void entryYazdir(Map<Integer, String> sinifListMap) {
+        
+        Set<Map.Entry<Integer,String>>sinifListEntrySeti=sinifListMap.entrySet();
+        for (Map.Entry<Integer,String>entry:sinifListEntrySeti
+             ) {
+            System.out.println(entry);
+        }
+    }
 }
